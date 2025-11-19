@@ -1,8 +1,8 @@
         const form = document.querySelector(".actions");
         const gridItems = document.querySelectorAll(".grid-item");
         console.log(gridItems)
-const changeButton = document.getElementById("change_button");
-const reset = document.getElementById("Reset");
+		const changeButton = document.getElementById("change_button");
+		const reset = document.getElementById("reset_button");
 
 
 form.addEventListener("submit", changeColor);
